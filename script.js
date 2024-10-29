@@ -19,3 +19,9 @@ function sayBye(){
     console.log( $('#title').html());
     
 }
+
+
+$(".crop-img").click(function(){
+    $("#bigImage").attr('src', 
+        $(this).attr('src'));
+});
