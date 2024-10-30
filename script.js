@@ -25,3 +25,15 @@ $(".crop-img").click(function(){
     $("#bigImage").attr('src', 
         $(this).attr('src'));
 });
+
+
+$('.js-go-night').click(function(){
+    $('body').addClass('night');
+$('div').addClass('night');
+$('li').addClass('night');
+});
+$('.js-go-day').click(function(){
+    $('body').removeClass('night');
+$('div').removeClass('night');
+$('li').removeClass('night');
+});
